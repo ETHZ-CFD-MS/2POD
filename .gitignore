@@ -1,0 +1,11 @@
+*.eps
+*.fig
+*.m~
+*.mat
+*.png
+
+.directory
+.DS_Store
+
+cases
+notes

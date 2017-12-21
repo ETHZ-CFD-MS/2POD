@@ -1,0 +1,31 @@
+{
+    "PO2": 50,
+    "S_P": 5e-6,
+    "kp": 2.174e4,
+    "kq": 532.6,
+    "sigma2": 652e-58,
+    "phip": 0.18,
+    "D_O2": 2.18e-9,
+    "kd": 2.4e5,
+    "temp": 309.65,
+
+    "Pm": 5e-3,
+    "n_pulse": 2000,
+    "frequency": 80e6,
+    "t_pulse": 110e-15,
+    "wavelength": 950e-9,
+    "NA": 0.95,
+    "n0": 1.33,
+    "t_coll": 225e-6,
+    "chi": 0.05,
+    "PSF_type": "gaussian",
+    "scatt_length_ex": 47e-6,
+    "scatt_depth": 0e-6,
+
+    "r_max": 12e-6,
+    "dr": 1e-7,
+    "z_max": 15e-6,
+    "dz": 1e-7,
+    "r_grading": "@(r) ((r < 3e-6)*1 + (r >= 3e-6).*(1 + (r - 3e-6)*(3 - 1)/(8e-6 - 3e-6)))",
+    "z_grading": "@(z) ((z < 3e-6)*1 + (z >= 3e-6).*(1 + (z - 3e-6)*(3 - 1)/(8e-6 - 3e-6)))"
+}

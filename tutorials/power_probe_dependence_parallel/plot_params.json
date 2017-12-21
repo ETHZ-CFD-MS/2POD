@@ -1,0 +1,6 @@
+{
+    "param_label1": "$P_m \\; [\\mathrm{mW}]$",
+    "param_factor1": 1e3,
+    "param_label2": "$[P] \\; [\\mathrm[\\mu M]$",
+    "param_factor2": 1e6
+}
